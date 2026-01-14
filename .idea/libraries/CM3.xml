@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CM3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CM.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

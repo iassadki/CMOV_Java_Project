@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CM">
+    <output-path>$PROJECT_DIR$/out/artifacts/CM</output-path>
+    <root id="archive" name="CM.jar">
+      <element id="module-output" name="CM2020" />
+      <element id="library" level="project" name="comm" />
+    </root>
+  </artifact>
+</component>

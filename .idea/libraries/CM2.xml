@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CM2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CM/out/artifacts/CM/CM.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

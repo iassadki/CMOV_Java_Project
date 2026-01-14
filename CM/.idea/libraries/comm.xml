@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="comm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/comm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta-oro.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/RXTXcomm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jSerialComm-2.10.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

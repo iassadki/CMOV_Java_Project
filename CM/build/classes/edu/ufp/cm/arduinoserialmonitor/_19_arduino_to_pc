@@ -1,0 +1,42 @@
+/**
+ * This Sketch sends a command to the Java Program via Serial Port: Arduino->Serial->PC->Java
+ *  a) Mote sends 'H' or 'L' to Java program which acts accordingly, turning light On or Off;
+ *  b) Mote sends an int (simulating a light sensor value input) to the Java program;
+ *     The Java program then checks light value and turns light on (<270) or off (>=270).
+ *
+ *  Test sketch by connecting the board to the serial monitor (9600 baud) and see received numbers.
+ *  If it is working then run Java Program and select COM port.
+ */
+
+int LED_PIN = 13;
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop()
+{
+  Serial.println('H');
+  Serial.flush();
+  digitalWrite(LED_PIN, HIGH);
+  delay(1000);
+  Serial.println('L');
+  Serial.flush();
+  digitalWrite(LED_PIN, LOW);
+  delay(2000);
+
+  /*
+  // Simulates high light reading
+  Serial.println(300);
+  Serial.flush();
+  digitalWrite(LED_PIN, HIGH);
+  delay(1500);
+  // Simulates low light reading
+  Serial.println(200);
+  Serial.flush();
+  digitalWrite(LED_PIN, LOW);
+  delay(3000);
+  */
+}

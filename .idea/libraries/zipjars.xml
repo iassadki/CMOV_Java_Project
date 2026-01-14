@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="zipjars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CM/zipjars/javaxcomm.zip!/" />
+      <root url="jar://$PROJECT_DIR$/CM/zipjars/SimpleSerial.zip!/" />
+      <root url="jar://$PROJECT_DIR$/CM/zipjars/jakarta-oro.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
